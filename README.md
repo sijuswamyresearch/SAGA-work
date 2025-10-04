@@ -65,7 +65,7 @@ class SAGA(nn.Module):
 ```
 
 
->*SAGA code explanation*
+>*SAGA code explanation:*
 This class defines the SAGA (Spatially-Aware Gated Activation) module, which provides nuanced, spatially-aware control on activation functions in neural networks. The module uses depthwise convolutions to capture spatial context and generates a dynamic gate to modulate the activation boost based on this context. The implementation includes initialization of weights and biases to ensure effective learning.
 
 ### Supplementary documents
@@ -90,5 +90,5 @@ They include:
 [Models](.\models)
 
 
->*Complete code*
+>*Complete code:*
 The complete code for training and evaluating models with SAGA wiil be uploaded upon publication of the work.
