@@ -2,17 +2,17 @@
 This repository contains supplementary documents and Python code for the work
 
 ## Index
-- [SAGA - block diagram](#saga---block-diagram)
+- [SAGA – block diagram](#saga--block-diagram)
 - [Python code for SAGA](#python-code-for-saga)
 - [Supplementary documents](#supplementary-documents)
-- [Models](#models) 
+- [Models](#models)
 
+## SAGA – block diagram
 
-## SAGA - block diagram
 
 The block diagram of SAGA is shown below:
 
-<img src="[supporting documents/SAGA.png](https://github.com/sijuswamyresearch/SAGA-work/blob/main/Supporting%20documents/SAGA.png)" alt="SAGA Block Diagram" width="600"/>
+![SAGA](https://github.com/sijuswamyresearch/SAGA-work/blob/main/Supporting%20documents/SAGA.png)
 
 ## Python code for SAGA
 
@@ -64,12 +64,11 @@ class SAGA(nn.Module):
 
 ```
 
-:::{.callout-note}
-## SAGA code explanation
-This class defines the SAGA (Spatially-Aware Gated Activation) module, which provides nuanced, spatially-aware control on activation functions in neural networks. The module uses depthwise convolutions to capture spatial context and generates a dynamic gate to modulate the activation boost based on this context. The implementation includes initialization of weights and biases to ensure effective learning.
-:::
 
-## Supplementary documents
+>*SAGA code explanation*
+This class defines the SAGA (Spatially-Aware Gated Activation) module, which provides nuanced, spatially-aware control on activation functions in neural networks. The module uses depthwise convolutions to capture spatial context and generates a dynamic gate to modulate the activation boost based on this context. The implementation includes initialization of weights and biases to ensure effective learning.
+
+### Supplementary documents
 The supplementary documents for this work can be found in the `Supporting documents` folder.
 
 [Supporting documents](.\Supporting documents)
@@ -90,7 +89,6 @@ They include:
 
 [Models](.\models)
 
-:::{.callout-tip}
-## Complete code
+
+>*Complete code*
 The complete code for training and evaluating models with SAGA wiil be uploaded upon publication of the work.
-:::
