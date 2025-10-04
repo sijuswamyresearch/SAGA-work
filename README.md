@@ -12,7 +12,7 @@ This repository contains supplementary documents and Python code for the work
 
 The block diagram of SAGA is shown below:
 
-<img src="supporting documents/SAGA.png" alt="SAGA Block Diagram" width="600"/>
+<img src="[supporting documents/SAGA.png](https://github.com/sijuswamyresearch/SAGA-work/blob/main/Supporting%20documents/SAGA.png)" alt="SAGA Block Diagram" width="600"/>
 
 ## Python code for SAGA
 
